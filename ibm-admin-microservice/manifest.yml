@@ -1,0 +1,6 @@
+---
+applications:
+  - name: ibm-ms
+    buildpack: https://github.com/cloudfoundry/java-buildpack.git#v3.8.1
+    path: target/ibm-admin-microservice.jar
+ 
